@@ -1,0 +1,25 @@
+{
+  "name": "nodejs-run-osmosisd-command",
+  "version": "1.0.0",
+  "description": "Nodejs helper function to spawn an osmosisd child-process as a promise, and resolve the json response",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jasbanza/nodejs-run-osmosisd-command.git"
+  },
+  "keywords": [
+    "osmosis",
+    "cli",
+    "nodejs"
+  ],
+  "author": "jasbanza",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jasbanza/nodejs-run-osmosisd-command/issues"
+  },
+  "homepage": "https://github.com/jasbanza/nodejs-run-osmosisd-command#readme"
+}
