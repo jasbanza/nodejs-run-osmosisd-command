@@ -21,7 +21,7 @@ async function runOsmosisdCommand(command) {
   try {
     // Check if the command includes "osmosisd tx" and add keyring-backend test option.
     if (command.includes("osmosisd tx")) {
-      command = command + " --keyring-backend test"; // To avoid entering osmosisd's keychain password request for transactions.
+      command = command + " --keyring-backend test -y"; // To avoid entering osmosisd's keychain password request for transactions.
     }
     const response = await execPromise(
       `${commandPrefix}${command} --output json`

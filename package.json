@@ -1,6 +1,6 @@
 {
   "name": "nodejs-run-osmosisd-command",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Nodejs helper function to spawn an osmosisd child-process as a promise, and resolve the json response",
   "main": "index.js",
   "type": "module",
